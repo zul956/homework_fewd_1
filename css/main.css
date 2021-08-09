@@ -1,0 +1,91 @@
+.flex {
+    display: flex;
+}
+
+.container1 {
+    justify-content: space-between;
+    background-color: black;
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: yellow;
+}
+
+.container1 h2 {
+    color: yellow;
+}
+
+.container1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.container1 nav {
+    display: flex;
+    padding-top: 20px;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+u {
+    text-decoration-color: yellow;
+}
+
+.container2 {
+    justify-content: center;
+    background-color: grey;
+}
+
+.banner {
+    background-image: url("../images/getty_180152187_970679970450047_87329.jpg");
+    background-size: cover;
+    height: 600px;
+    justify-content: flex-end;
+}
+
+.container3 {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 20%;
+    margin: auto 20px;
+    padding: 15px 20px;
+}
+
+.banner button {
+    background-color: yellow;
+    padding: 7px 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.walk_through button {
+    background-color: grey;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.border {
+    border-right: grey;
+    border-right-style: solid;
+}
+
+.item {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer_container {
+    padding: 5px 0px 5px 10px;
+    background: black;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+
+.footer_container p {
+    color: white;
+}
